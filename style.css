@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+	background-color:#000;
+}
+header{
+	height:900px;
+	display:flex;
+	flex-direction:column;
+
+
+}
+.header-nav{
+    background: #282828;
+    padding: 15px 0;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-nav-content{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header-nav-list{
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav-list-link{
+    color:#FFFFFF;
+	font-size:20px;
+}
+
+.header-nav-list2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.left-nav-content{
+	display:flex;
+	align-items:center;
+	gap:100px;
+}
+.header-content{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	flex-grow:1;
+	background:url(img/header-bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	
+}
+.header-content a{
+background-color:#fff;
+padding:12px 11px;
+border-radius:6px;
+color:black;
+margin-top:30px;
+display:flex;
+align-items:flex-start;
+gap:10px;
+font-weight:700;
+
+}
+.header-content h1{
+	color:#fff;
+	font-size:90px;
+}
+/*Маин */
+.content__block1{
+	display:flex;
+	margin-top:50px;
+	gap:50px;
+}
+.content__block1 p{
+	color:#fff;
+	margin-top: 50px;
+}
+.content__block2{
+	display:flex;
+	align-items:center;
+	margin-top:50px;
+	gap:50px;
+}
+.content__block2 p{
+	color:#fff;
+}
+.content__block3{
+	display:flex;
+	align-items:center;
+	margin-top:50px;
+	gap:20px;
+}
+.content__block3 p{
+	color:#fff;
+}
+.border{
+	height:2px;
+	width:400px;
+	background-color:#333;
+}
+.main-bottom{
+	display:flex;
+	gap:30px;
+	margin:50px 0;
+	justify-content:center;
+}
+.card{
+	background-color:#fff;
+	width:20%;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	border-radius:6px;
+	gap:3px;
+	padding:5px;
+}
+.card-img{
+	width:100%;
+	text-align:center;
+}
+
+.card a{
+	color:white;
+	background-color:black;
+	padding:5px 20px;
+	border-radius:3px;
+	
+}
+/* footer*/
+footer{
+	background: #282828;
+	padding:25px;
+}
+
+.footer-nav-content{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.footer-nav-list{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-nav-list-link{
+    color:#FFFFFF;
+	font-size:25px;
+}
+
+.footer-nav-list2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.left-nav-content{
+	display:flex;
+	align-items:center;
+	gap:100px;
+}
